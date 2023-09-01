@@ -1,4 +1,16 @@
+/*
+Tres formas de utilizar los selectores CSS.
+1. Selector de etiqueta: h1, p, header, nav, ul, etc.
+2. ID: Por el identificador unico (nombre) de la etiqueta
+3. Clase: se agrega el atributo clase a cada elemento donde se desea utilizar.
+*/
 main{
     background-color: #feffc9;
     text-transform: uppercase;
+}
+
+footer{
+    background-color: #506b81;
+    text-transform: uppercase;
+    color: #0c124d;
 }
