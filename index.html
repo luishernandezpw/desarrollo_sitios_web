@@ -50,7 +50,7 @@
             <section>
                 <!--JS en linea-->
                 <h1 onclick="alert('Hola me diste un click. ;)');">Dame Click...</h1>
-
+                <h2 id="hTitulo">Prueba dar click</h2>
             </section>
         </article>
     </main>
@@ -60,7 +60,11 @@
 
     <!--JS incrustado, es decir en el mismo archivo antes del cierre del body-->
     <script>
-        alert("Canrgando pagina...");
+        document.addEventListener('DOMContentLoaded', e=>{
+            htitulo.addEventListener('click', event=>{
+                alert("Hola diste click en h2");
+            });
+        });
     </script>
 </body>
 </html>
