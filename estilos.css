@@ -17,5 +17,5 @@ footer{
 
 main > article > section > h1:hover{
     background-color: #9bccf5;
-    
+    cursor:pointer;
 }
