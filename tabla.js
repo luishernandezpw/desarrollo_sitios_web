@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', e=>{
 });
 
 function generarTablaMultiplicar(){
-    btnMostrarTabla.addEventListener('click', e=>{
+    frmTablaMultiplicar.addEventListener('submit', e=>{
         e.preventDefault();
         let ntabla = parseInt(txtNumTabla.value), 
             respuesta = `TABLA DE MULTIPLICAR DEL ${ntabla}<br><br>`;
