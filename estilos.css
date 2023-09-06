@@ -20,9 +20,9 @@ main > article > section > h1:hover,
     background-color: #9bccf5;
     cursor:pointer;
 }
-input[type=text]:invalid{
+input[type="text"]:invalid{
     background-color: #ffcfa8;
 }
-input[type=text]:valid{
+input[type="text"]:valid{
     background-color: #cdffd1;
 }
