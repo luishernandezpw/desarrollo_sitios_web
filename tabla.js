@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', e=>{
 
 function generarTablaMultiplicar(){
     btnMostrarTabla.addEventListener('click', e=>{
+        e.preventDefault();
         let ntabla = parseInt(txtNumTabla.value), 
             respuesta = `TABLA DE MULTIPLICAR DEL ${ntabla}<br><br>`;
         for(let i=1; i<=10; i++){
