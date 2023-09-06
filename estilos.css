@@ -15,7 +15,8 @@ footer{
     color: #0c124d;
 }
 
-main > article > section > h1:hover{
+main > article > section > h1:hover, 
+#hTitulo:hover{
     background-color: #9bccf5;
     cursor:pointer;
 }
