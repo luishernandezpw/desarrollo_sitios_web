@@ -14,3 +14,8 @@ footer{
     text-transform: uppercase;
     color: #0c124d;
 }
+
+main > article > section > h1:hover{
+    background-color: #9bccf5;
+    
+}
